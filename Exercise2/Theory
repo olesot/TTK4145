@@ -1,3 +1,16 @@
 
 Theory:
-	
+	An atomic operation is an operation that either completed or not completed. It can not be
+	aborted or interrupted.
+
+	A mutex provides MUTual EXclusion to a resource, meaning that only one thread has access to 
+	the resource at any given moment. 
+
+	A semaphore is a generalized mutex. It divides the resource into pieces and allowes different 
+	threads to work on different pieces at the same time.
+
+	A critical section is a snippet of code that needs to be run in series, it can't lose access to
+	the resource without it crippling the result. 
+
+
+ 
